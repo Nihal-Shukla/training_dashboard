@@ -1,0 +1,71 @@
+.container-one{
+    height: 100vh ;
+    width: 250px;
+    // border: 10px solid red;
+    background-color: #1D2531;  
+    position: fixed; 
+    top: 0;
+    left: 0;
+    
+}
+
+
+
+.guidex{
+    height: 70px;
+    width: 250px;
+    background-color: #1A202B;
+    color: #D5D6D8;
+    display: flex;
+    // justify-content: center;
+    padding-left: 30px;
+    align-items: center;
+
+
+}
+
+.box{
+    height: 100vh;
+    width: 250px;
+    background-color: #1D2531;
+    
+}
+
+.info{
+    color: #D5D6D8;
+    background-color: #1D2531;
+}
+
+.Icon{ 
+    font-size: 18px;
+    padding-right: 10px;
+    background-color: #1D2531;
+    
+    
+}
+
+.Icon-2{
+    font-size: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #1D2531;
+}
+
+.Accordion{
+    color: white;
+    background-color: #1D2531;
+    button{
+        color: white;
+        background-color: #1D2531;
+    }
+}
+.box-1{
+    margin-top: 50px;
+}
+.box-2{
+    margin-top: 30px;
+}
+.box-3{
+    margin-top: 50px;
+}
+
