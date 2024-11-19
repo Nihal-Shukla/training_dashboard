@@ -1,16 +1,20 @@
+@import "../Components/custom.scss"; 
+
+
 .feature_box{
     height: 650px;
     width: 700px;
     // border:  1px solid red;
     margin: 30px 0px 0px 30px;
-    background-color: #ffffff;
+    background-color:$background_color;
 
 
     .core{
         height: 30px;
         width: 100%;
-        background-color: white;
+        background-color: $background_color;
         padding: 20px 0px 30px 20px;
+        color: $heading_color;
     }
 }
 .core_box{
@@ -20,14 +24,14 @@
     margin: 30px;
     display: flex;
     justify-content: space-between;
+    
     .core_logo_box{
         height:150px ;
         width: 140px;
-        // border: 1px solid green;
         display: flex;
         align-items: center;
         justify-content: center;
-        box-shadow: 3px 3px 3px 3px whitesmoke;
+        box-shadow: 3px 3px 3px 3px $box_shaow_features;
         border-radius: 10px;
         img{
             height: 50px;

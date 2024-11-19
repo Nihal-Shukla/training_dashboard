@@ -5,10 +5,10 @@ function Topics() {
   return (
     <>
       <div className='topic'>
-      <h4>Topics</h4> 
+      <h4 className='px-3 py-2 pb-0 mb-0'>Topics</h4> 
       <hr />
-<button>Introduction</button><br />
-<button>Core Features</button><br />
+<a href="#introduction"><button>Introduction</button> </a><br />
+<a href="#features"><button>Core Features</button></a><br />
 <button>File Structure</button><br />
 <button>Starter Page</button><br />
 <button>Customization</button>

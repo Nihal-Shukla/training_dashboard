@@ -4,7 +4,10 @@ import "./File.scss";
 function File() {
   return (
     <>
-      <div className="file"></div>
+      <div className="file">
+
+      
+      </div>
     </>
   )
 }

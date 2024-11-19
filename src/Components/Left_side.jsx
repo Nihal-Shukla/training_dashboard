@@ -62,7 +62,7 @@ function Left_side() {
   </div>  
 </div>
 </div>
-<hr/>
+   <div style={{borderTop:'2px solid #27303e', margin:'10px 15px'}}></div>
  {/* /* Accordion 1 end */ } 
 
  <div className="box-2">
@@ -83,6 +83,7 @@ function Left_side() {
   </div>
 </div>
 </div>
+<div style={{borderTop:'2px solid #27303e', margin:'10px 15px'}}></div> 
  {/* Accordion 2 end */}
 
 {/* Info */}

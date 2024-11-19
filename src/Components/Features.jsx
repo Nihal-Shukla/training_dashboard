@@ -5,7 +5,7 @@ function Features() {
   return (
     <>
       <div className="feature_box">
-<div className='core'><h4>Core Features</h4></div>
+<div className='core' id='features'><h4>Core Features</h4></div>
 <hr />
 <div className="core_box">
   <div className="core_logo_box">

@@ -1,7 +1,8 @@
+@import "../Components/custom.scss";
+
 .file{
     height: 400px;
     width: 700px;
-    border: 1px solid red;
     margin: 30px 0px 0px 30px;
-    background-color: #ffffff;
+    background-color: $background_color;
 }
