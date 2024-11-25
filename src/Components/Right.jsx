@@ -2,7 +2,7 @@ import React from 'react';
 import './Right.scss'
 import Topics from './Topics';
 import Features from './Features';
-// import File from './File';
+
 
 const Right = () => {
   return (
@@ -39,7 +39,7 @@ const Right = () => {
 
       </div>
       <Features></Features>
-      {/* <File></File> */}
+      
     </>
   )
 }

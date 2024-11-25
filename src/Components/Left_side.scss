@@ -1,25 +1,33 @@
 @import "../Components/custom.scss";
 
-
 .container-one {
     height: 100vh;
     width: 250px;
+    // width:auto;
     background-color: $bg_color;
     position: fixed;
     top: 0;
     left: 0;
+    display: block;
 
 }
 
+.toggle-on{
+    display:block;
+}
+.toggle-off{
+    display:none;
+}
 
+// .container-one.show {
+//     display: block; /* Display when the toggle button is clicked */
+//   }
 
 .guidex {
     height: 70px;
     width: 250px;
-    background-color: $guidex_background_color;
-    
+    background-color: $guidex_background_color; 
     display: flex;
- 
     padding-left: 30px;
     align-items: center;
 
@@ -45,7 +53,13 @@
 
 
 }
-
+.icon{
+    font-size: 30px;
+    margin: 15px 20px 0px 20px;
+    color:$icon-color ;
+    display: none;
+    
+}
 .Icon-2 {
     font-size: 10px;
     padding-left: 10px;
@@ -94,4 +108,22 @@ color: $color;
     background-image: url("../../public/Images/down-2.svg");
     transform: rotate();
 }
+
+#menuBar{
+    font-size: 50px;
+    color:$color;
+    
+    display: none;
+}
+
+// @media only screen and (max-width: 800px){
+    
+//     .container-one{
+//         display: none;
+//     }
+//     .icon{
+//         display: block;
+//     }
+// }
+
 

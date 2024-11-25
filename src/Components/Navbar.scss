@@ -1,14 +1,9 @@
 @import "../Components/custom.scss";
-
-
-
-
-
 .navbarr{
     height: 70px;
-    width: calc(100% - 250px);
+    // width: calc(100% - 250px);
+    width: 100%;
     background-color: $color;
-    margin: 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,11 +11,7 @@
     z-index: 999;
     
 
-    .icon{
-        font-size: 30px;
-        margin: 0px 20px 0px 30px;
-        color:$icon-color ;
-    }
+   
     input{
         height: 40px;
         width: 300px;
@@ -35,6 +26,8 @@
         margin-left: -30px;
         color: $icon-color;
     }
+
+    
 }
 .buy{
     height: 35px;
@@ -45,7 +38,7 @@
     border: 1px solid $sky-color;
     border-radius: 5px;
     cursor: pointer;
-    margin-right: 30px;
+    margin-right: 300px;
     
 
 }
@@ -55,3 +48,23 @@
     color: $sky-color;
     background-color: $color;
 }
+
+.toggle{
+    font-size: 30px;
+    color: $icon-color;
+    margin: 8px 20px 0px 20px;
+    
+}
+
+
+@media only screen and (max-width: 800px){
+    .navbarr{
+        width: 100vw;
+    }
+
+    .toggle{
+        display: block;
+    }
+}
+
+

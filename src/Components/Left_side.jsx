@@ -1,19 +1,35 @@
-import React from 'react'
+import React, { useState } from 'react';
 import './Left_side.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleDot} from '@fortawesome/free-solid-svg-icons/faCircleDot';
 import { faClock } from '@fortawesome/free-solid-svg-icons';
 import { faFileLines , faCircleNotch ,faDownload,faStar} from '@fortawesome/free-solid-svg-icons';
+import { faToggleOff } from '@fortawesome/free-solid-svg-icons';
 // import Right from './Right';
 
-function Left_side() {
+function Left_side({toggle}) {
+  // const[sidebar, setSidebar]=useState("");
+  // const [toggle, setToggle] = useState(false);
+
+  // function toggleFuc(){
+  //   setToggle(!toggle);
+  // }
+
+  // const sidebarOff=()=>{
+  //   console.log("sidebar off");
+
+  // }
   return (
-    <div className='container-one'> 
-      
+    <>
+    {/* <span className={'icon'}><FontAwesomeIcon icon={faToggleOff}  /> </span> */}
+    {/* <div className= {toggle?'container-one':'icon'} >    */}
+
+<div className={`container-one ${toggle?'toggle-off':'toggle-on'}`}>
         <div className="guidex">
           <img src="./Images/logo.png" alt="" style={{height:"25px"}}/>
         </div>
-        <div className="box">                                  <div className="box-1">
+        <div className="box">    
+            <div className="box-1">
         <div class="accordion" id="accordionExample" >
   <div class="accordion-item" className='Accordion'>
     <h2 class="accordion-header" id="headingOne">
@@ -96,11 +112,9 @@ function Left_side() {
 </div>
         </div>            
     </div>
-
-
- 
     </div>
+    </>
   )
 }
 
-export default Left_side
+export default Left_side;
